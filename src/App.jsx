@@ -10,6 +10,7 @@ import Setting from "./pages/Setting"
 import NewUpdate from "./pages/NewUpdate"
 import { SidebarContext } from "./contexts/SidebarContextProvider";
 import { useContext } from "react";
+import './App.css'
 
 
 
