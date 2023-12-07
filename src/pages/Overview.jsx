@@ -79,10 +79,10 @@ const Overview = () => {
 
 
         {/* Calender */}
-        <div className="flex flex-col pr-6 animate-slide-right">
+        <div className="flex flex-col pr-6 animate-slide-right text-white">
             <h1>Timeline of the year</h1>
             <div className="h-96">
-            <Calender events={events} defaultView={"week"}/>
+            <Calender events={events} defaultView={"week"}  />
             </div>
             
           </div>

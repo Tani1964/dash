@@ -15,7 +15,7 @@ const Cards = ({ color, rating, title, icon }) => {
   return (
     <>
       <div
-        className="absolute flex flex-col lg:w-56 xl: p-10 h-56 rounded-3xl justify-between overflow-hidden"
+        className="absolute flex flex-col lg:w-56 2xl:w-72 2xl:h-72 p-10 h-56 rounded-3xl justify-between overflow-hidden"
         style={{ backgroundColor: color }}
       >
         <div className="bg-white bg-opacity-30 w-fit p-2 rounded-md text-white">
@@ -29,8 +29,8 @@ const Cards = ({ color, rating, title, icon }) => {
         <div className="text-md w-2/3 ">{title} Project</div>
       </div>
       <div className="animate-slide-left h-fit">
-        <div className="z-20  w-56 h-72 rounded-3xl bg-white bg-opacity-30 rotate-45 translate-x-56 -translate-y-20"></div>
-        <div className="z-10 lg:w-56 h-72 rounded-3xl bg-white bg-opacity-30 rotate-45 translate-x-56 -translate-y-96 "></div>
+        <div className="z-20  w-56 h-72 rounded-3xl 2xl:w-72 2xl:h-80 bg-white bg-opacity-30 rotate-45 translate-x-56 -translate-y-20"></div>
+        <div className="z-10 lg:w-56 h-72 rounded-3xl 2xl:w-72 2xl:h-80 bg-white bg-opacity-30 rotate-45 translate-x-56 -translate-y-96 "></div>
       </div>
     </>
   );

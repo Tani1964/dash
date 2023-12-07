@@ -7,7 +7,7 @@ const localizer = momentLocalizer(moment);
 
 const Calender = (props) => {
   return (
-      <BigCalendar {...props} localizer={localizer} />
+      <BigCalendar  resizable={true} {...props} localizer={localizer} />
   );
 };
 
