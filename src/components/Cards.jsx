@@ -15,7 +15,7 @@ const Cards = ({ color, rating, title, icon }) => {
   return (
     <>
       <div
-        className="absolute flex flex-col lg:w-56 p-10 h-56 rounded-3xl justify-between overflow-hidden"
+        className="absolute flex flex-col lg:w-56 xl: p-10 h-56 rounded-3xl justify-between overflow-hidden"
         style={{ backgroundColor: color }}
       >
         <div className="bg-white bg-opacity-30 w-fit p-2 rounded-md text-white">

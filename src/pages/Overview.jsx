@@ -49,7 +49,7 @@ const Overview = () => {
         <div className="flex pr-6 justify-between animate-slide-left  -mb-72">
           <div className="relative overflow-hidden rounded-2xl ">
             <Cards
-            className="absolute inset-0"
+            className=""
               color="rgba(215,84,40,255)"
               icon={<UpcomingIcon />}
               title="Upcoming"
@@ -59,7 +59,7 @@ const Overview = () => {
 
           <div className="overflow-clip  rounded-2xl">
             <Cards
-            className="fixed"
+            className=""
               color="purple"
               icon={<CachedIcon />}
               title="In progress"
